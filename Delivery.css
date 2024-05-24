@@ -1,0 +1,32 @@
+.delivery-details {
+  padding: 20px;
+  background-color: #f4f5f7;
+  margin-left: 20pc;
+}
+
+.details-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.details-table th,
+.details-table td {
+  border: 1px solid #ddd;
+  padding: 5pc;
+  text-align: left;
+}
+
+.details-table th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+.details-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.details-table tr:hover {
+  background-color: #ddd;
+}
